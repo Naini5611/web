@@ -7,11 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { IndexComponent } from './pages/index/index.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AuthorComponent } from './pages/author/author.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    IndexComponent
+    IndexComponent,
+    AuthorComponent
   ],
   imports: [
     BrowserModule,
